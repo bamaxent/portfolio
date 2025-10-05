@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Build output
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# System files
+Thumbs.db
+
