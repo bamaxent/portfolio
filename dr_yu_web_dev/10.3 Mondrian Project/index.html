@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    body {
+      background-color: black;
+    }
+
+.container {
+  display: grid;
+  grid-template-columns: 5fr 3fr 3.2fr .8fr;
+  grid-template-rows: 6fr 2fr 3fr .3fr;
+  gap: .5rem;
+  height: 748px;
+  width: 748px;
+}
+
+.container__div {
+  background-color: white;
+}
+.one {
+  background-color: rgb(229, 7, 7);
+  
+}
+
+.two {
+  background-color: white;
+  grid-column: 2 / 6;
+}
+
+.three {
+  background-color: white;
+  grid-row: 2 / 4
+}
+.four {
+  background-color: white;
+  grid-area: 2 / 2 / 4 / 4
+}
+
+.five {
+  background-color: rgb(31, 31, 176);
+  border-bottom: .5rem solid black;
+}
+
+.six {
+
+}
+
+.seven {
+  background-color: white;
+  grid-row: 3 / 5
+}
+
+.eight {
+  background-color:;
+}
+
+.nine {
+  background-color: white;
+}
+
+.ten {
+  background-color: rgb(228, 228, 27);
+}
+
+.elevin {
+  background-color: #2b2929;
+}
+
+
+
+.thirteen {
+  background-color: blue;
+}
+
+.container__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container__wrapper">
+   <div class="container">
+    <div class="container__div one"></div>
+    <div class="container__div two"></div>
+    <div class="container__div three"></div>
+    <div class="container__div four"></div>
+    <div class="container__div five"></div>
+    <div class="container__div six"></div>
+    <div class="container__div seven"></div>
+    <div class="container__div eight"></div>
+    <div class="container__div nine"></div>
+    <div class="container__div ten"></div>
+    <div class="container__div elevin"></div>
+    <div class="container__div twelve"></div>
+    <div class="container__div thirteen"></div>
+    <div class="container__div twelve"></div>
+    <div class="container__div thirteen"></div>
+    <div class="container__div thirteen"></div>
+   </div>
+   </div>
+</body>
+
+</html>
