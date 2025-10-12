@@ -23,3 +23,5 @@ build/
 # System files
 Thumbs.db
 
+# Frontend Mentor Figma Files
+qr-code-component-figma/
