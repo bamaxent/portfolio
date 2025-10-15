@@ -1,0 +1,61 @@
+:root {
+
+    /* Attributes */
+
+body {
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+   color: hsl(216, 15%, 48%);
+}
+
+/* Classes */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.qr-code {
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    max-width: 375px;
+}
+
+.qr-code__container {
+    background-color: white;
+    margin: 0px 15rem;
+}
+
+.qr-code__image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .9rem;
+    overflow: hidden;
+    max-width: 400px;
+}
+
+.qr-code__image {
+    width: 100%;
+}
+
+.qr-code__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+
+}
