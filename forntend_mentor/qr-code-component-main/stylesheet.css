@@ -1,67 +1,78 @@
 :root {
+  /* Variables */
 
-    /* Attributes */
+  /* Font sizes */
 
-body {
+  --text-m: clamp(0.8rem, calc(0.8rem + ((1vw - 0.2rem) * 0.3059)), 1rem);
+  --text-s: clamp(0.7rem, calc(0.7rem + ((1vw - 0.2rem) * 0.1765)), 0.8rem);
+  --text-l: clamp(1.2rem, calc(1.2rem + ((1vw - 0.2rem) * 0.5882)), 1.5rem);
+
+  /* Space */
+  --space-xs: clamp(0.4rem, calc(0.4rem + ((1vw - 0.2rem) * 0.6119)), 0.8rem);
+  --space-s: clamp(0.8rem, calc(0.8rem + ((1vw - 0.2rem) * 1.2237)), 1.6rem);
+  --space-m: clamp(1.6rem, calc(1.6rem + ((1vw - 0.2rem) * 2.4474)), 3.2rem);
+  --space-l: clamp(3.2rem, calc(3.2rem + ((1vw - 0.2rem) * 3.6701)), 4.8rem);
+  --space-xl: clamp(4.8rem, calc(4.8rem + ((1vw - 0.2rem) * 4.8947)), 6.4rem);
+
+  /* Elements */
+
+  body {
     font-family: "Outfit", sans-serif;
     text-align: center;
     background-color: hsl(212, 45%, 89%);
-}
+  }
 
-h1 {
+  h1 {
     color: hsl(218, 44%, 22%);
-}
+    font-size: 24px;
+  }
 
-p {
-   color: hsl(216, 15%, 48%);
-   font-size: 15px;
-   padding: 0 1.5rem;
-   letter-spacing: .3px;
-   line-height: 1.5;
-}
+  p {
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
+    padding: 0 1rem;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+  }
 
-/* Classes */
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-    padding: 1rem;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
+  /* Classes */
 }
 .qr-code {
-    display: flex;
-    flex-direction: column;
-    border-radius: 1.5rem;
-    height: 100dvh;
-    width: 100dvw;
-    align-items: center;
-    justify-content: center;
-    row-gap: 2rem;
-
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  height: 96dvh;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
 }
 
 .qr-code__container {
-    display:flex;
-    flex-direction: column;
-    background-color: white;
-    padding: 1.2rem;
-    border-radius: 1.2rem;
-    width: 300px;
-
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1.2rem;
+  width: 300px;
 }
 
 .qr-code__image-wrapper {
-    display: flex;
-    border-radius: .6rem;
-    overflow: hidden;
-    max-width: 300px;
+  display: flex;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  max-width: 300px;
 }
 
 .qr-code__image {
-    width: 100%;
+  width: 100%;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
