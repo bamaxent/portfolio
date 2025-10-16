@@ -1,19 +1,4 @@
 :root {
-  /* Variables */
-
-  /* Font sizes */
-
-  --text-m: clamp(0.8rem, calc(0.8rem + ((1vw - 0.2rem) * 0.3059)), 1rem);
-  --text-s: clamp(0.7rem, calc(0.7rem + ((1vw - 0.2rem) * 0.1765)), 0.8rem);
-  --text-l: clamp(1.2rem, calc(1.2rem + ((1vw - 0.2rem) * 0.5882)), 1.5rem);
-
-  /* Space */
-  --space-xs: clamp(0.4rem, calc(0.4rem + ((1vw - 0.2rem) * 0.6119)), 0.8rem);
-  --space-s: clamp(0.8rem, calc(0.8rem + ((1vw - 0.2rem) * 1.2237)), 1.6rem);
-  --space-m: clamp(1.6rem, calc(1.6rem + ((1vw - 0.2rem) * 2.4474)), 3.2rem);
-  --space-l: clamp(3.2rem, calc(3.2rem + ((1vw - 0.2rem) * 3.6701)), 4.8rem);
-  --space-xl: clamp(4.8rem, calc(4.8rem + ((1vw - 0.2rem) * 4.8947)), 6.4rem);
-
   /* Elements */
 
   body {
