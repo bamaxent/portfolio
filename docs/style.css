@@ -1,0 +1,31 @@
+:root {
+  h1 {
+    color: #b06f2b;
+    font-family: "Exo 2", sans-serif;
+  }
+
+  body {
+    background-color: #242424;
+    padding: 6rem;
+  }
+
+  li {
+    color: #eaecef;
+  }
+
+  a {
+    transition: color 0.3s ease-in, text-decoration-color 0.3s ease-in;
+    color: #a3a3a3;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: 300;
+    text-decoration-color: #040404;
+  }
+
+  a:hover {
+    color: #dea556;
+    text-decoration-color: #6d6d6d;
+  }
+}
