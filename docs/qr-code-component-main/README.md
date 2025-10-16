@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![target="_blank" rel="noopener"](../qr-code-component-main/images/finished-build-by-bam.png)
+![](../qr-code-component-main/images/finished-build-by-bam.png)
 
 ### Links
 
@@ -48,14 +48,14 @@ And `vim`. I hate `vim`. Does anyone like `vim`?
 
 ### Useful resources
 
-- [Vim Cheat Sheet](https://vim.rtorr.com/)
-- [The Bible](https://developer.mozilla.org/en-US/)
+- <a href="https://vim.rtorr.com/" target="_blank" rel="noopener">Vim Cheat Sheet</a>
+- <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener">The Bible</a>
 
 ## Author
 
 Brian Maxwell, Founder &amp; President of
 [NI Web Dev](https://niwebdev.com)
-GitHub - [@bamaxent](https://www.frontendmentor.io/profile/yourusername)
+GitHub - [@bamaxent](https://github.com/bamaxent)
 
 ## Acknowledgments
 
