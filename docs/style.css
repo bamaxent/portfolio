@@ -2,10 +2,11 @@
   h1 {
     color: #b06f2b;
     font-family: "Exo 2", sans-serif;
+    margin-bottom: 2rem;
   }
 
   body {
-    background-color: #242424;
+    background-color: #121212;
     padding: 6rem;
   }
 
@@ -21,7 +22,7 @@
     letter-spacing: 1px;
     line-height: 1.5;
     font-weight: 300;
-    text-decoration-color: #040404;
+    text-decoration-color: #c7c7c7;
   }
 
   a:hover {

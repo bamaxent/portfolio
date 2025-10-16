@@ -26,7 +26,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Solution Image I was trying to match](../qr-code-component-main/images/desktop-design.jpg)
-- Live Site URL: [Add live site URL here](#)
+- Live Site URL: [Add live site URL here](https://bamaxent.github.io/portfolio/qr-code-component-main/)
 
 ## My process
 
