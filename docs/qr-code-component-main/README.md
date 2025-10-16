@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- <a href="../qr-code-component-main/images/desktop-design.jpg" target="_blank" rel="noopener">Solution URL</a>
-- <a href="https://bamaxent.github.io/portfolio/qr-code-component-main/" target="-blank" rel="noopener">Live Site URL</a>
+- <a target="_blank" rel="noopener" href="../qr-code-component-main/images/desktop-design.jpg">Solution URL</a>
+- <a target="-blank" rel="noopener" href="https://bamaxent.github.io/portfolio/qr-code-component-main/">Live Site URL</a>
 
 ## My process
 
@@ -48,8 +48,8 @@ And `vim`. I hate `vim`. Does anyone like `vim`?
 
 ### Useful resources
 
-- <a href="https://vim.rtorr.com/" target="_blank" rel="noopener">Vim Cheat Sheet</a>
-- <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener">The Bible</a>
+- <a target="_blank" rel="noopener" href="https://vim.rtorr.com/">Vim Cheat Sheet</a>
+- <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/">The Bible</a>
 
 ## Author
 
