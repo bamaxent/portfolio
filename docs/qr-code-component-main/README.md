@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Solution Image I was trying to match](../qr-code-component-main/images/desktop-design.jpg)
-- Live Site URL: [View Live QR Code](https://bamaxent.github.io/portfolio/qr-code-component-main/)
+- <a href="../qr-code-component-main/images/desktop-design.jpg" target="_blank" rel="noopener">Solution URL</a>
+- <a href="https://bamaxent.github.io/portfolio/qr-code-component-main/" target="-blank" rel="noopener">Live Site URL</a>
 
 ## My process
 
@@ -53,9 +53,11 @@ And `vim`. I hate `vim`. Does anyone like `vim`?
 
 ## Author
 
+<p>
 Brian Maxwell, Founder &amp; President of
 [NI Web Dev](https://niwebdev.com)
 GitHub - [@bamaxent](https://github.com/bamaxent)
+</p>
 
 ## Acknowledgments
 
