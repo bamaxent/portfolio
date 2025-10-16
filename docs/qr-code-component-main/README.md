@@ -53,11 +53,8 @@ And `vim`. I hate `vim`. Does anyone like `vim`?
 
 ## Author
 
-<p>
-Brian Maxwell, Founder &amp; President of
-[NI Web Dev](https://niwebdev.com)
-GitHub - [@bamaxent](https://github.com/bamaxent)
-</p>
+Brian Maxwell, Founder &amp; President of <a target="_blank" rel="noopener" href="https://niwebdev.com">NI Web Dev</a><br />
+GitHub - <a target="_blank" rel="noopener" href="https://github.com/bamaxent">@bamaxent</a>
 
 ## Acknowledgments
 
