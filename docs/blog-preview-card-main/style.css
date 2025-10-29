@@ -1,3 +1,24 @@
+:root {
+
+  --space-xs: clamp(1rem, calc(1rem + ((1vw - 0.2rem) * 1.5296)), 2rem);
+  --space-s: clamp(2.4rem, 1.147vw + 2.033rem, 3.6rem);
+  --space-m: clamp(3.6rem, 0.86vw + 3.325rem, 4.5rem);
+  --space-l: clamp(4.5rem, 0.86vw + 4.225rem, 5.4rem);
+  --space-xl: clamp(5.4rem, 0.574vw + 5.216rem, 6rem);
+
+  /*---   Text Sizes   ---*/
+  --text-xs: clamp(0.7rem, 0.287vw + 0.608rem, 1rem);
+  --text-m: clamp(14px, calc(0.875rem + ((1vw - 3.2px) * 0.3824)), 18px);
+  --text-h1: clamp(18px, calc(1.125rem + ((1vw - 3.2px) * 0.8604)), 27px);
+  --text-h2: clamp(15px, calc(0.9375rem + ((1vw - 3.2px) * 0.2868)), 18px);
+
+/* --- Colors --- */
+--yellow: hsl(47, 88%, 63%);
+
+}
+
+
+
 @font-face {
   font-family: "Figtree";
   src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
@@ -18,14 +39,134 @@
 /* Elements */
 body {
   font-family: "Figtree", sans-serif;
+  background-color: var(--yellow);
+}
+
+p {
+  font-size: var(--text-m);
+  line-height: 1.5rem;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 800;
+  font-size: var(--text-h1);
+  order: 3;
+}
+
+h2 {
+  font-size: var(--text-h2);
+  font-weight: 800;
 }
 
 /* Classes */
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
+.section {
+  max-height: 99vh;
+  max-width: 99vw;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto auto;
+  padding: var(--space-xs);
 }
+
+@media screen and (width <= 550px) {
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.container {
+display: flex;
+flex-direction: column;
+height: fit-content;
+padding: var(--space-xs);
+width: clamp(275px, calc(17.1875rem + ((1vw - 3.2px) * 11.9503)), 400px);
+border: 2px solid black;
+border-radius: 1.2rem;
+justify-content: center;
+background-color: hsl(0, 0%, 100%);
+box-shadow: .6rem .6rem 0px 0px black;
+grid-area: 1 / 2;
+}
+
+.card__image {
+  border-radius: .9rem;
+}
+
+.date {
+  order: 2
+}
+
+.title, .name, .learning {
+  transition: color .2s ease-out, background-color .2s ease-out;
+  cursor: pointer;
+}
+
+@media (hover:hover) and (pointer:fine) {
+  .title:hover, .name:hover {
+    color: var(--yellow);
+  }
+}
+
+.learning {
+  padding: calc(var(--space-xs)*.3) calc(var(--space-xs)*.5);
+  border-radius: .3rem;
+  background-color: var(--yellow);
+  width: clamp(30%, 20%, 20%);
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  order: 1;
+}
+
+@media (hover:hover) and (pointer:fine) {
+  .learning:hover {
+    color: var(--yellow);
+    background-color: black;
+  }
+}
+
+.name__wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: calc(var(--space-xs)*.5);
+  order: 4
+}
+
+@media (hover:hover) and (pointer:fine) {
+  .headshot:hover ~ .name {
+    color: var(--yellow);
+  }
+}
+
+.card__text {
+    order: 3
+}
+
+.headshot {
+height: 40px;
+cursor: pointer;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 18px;
+  transform: color .25s ease-in-out;
+}
+
+
+/* Attribution */
+.attribution {
+  grid-area: 2 / 2;
+  font-size: var(--text-xs);
+  text-align: center;
+  padding: var(--space-xs);
+}
+
+
 
 .attribution a {
   color: hsl(228, 45%, 44%);
