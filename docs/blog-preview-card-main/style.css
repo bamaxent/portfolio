@@ -1,6 +1,6 @@
 :root {
 
-  --space-xs: clamp(1rem, calc(1rem + ((1vw - 0.2rem) * 1.5296)), 2rem);
+  --space-xs: clamp(0.5rem, calc(0.5rem + ((1vw - 0.2rem) * 2.2945)), 2rem);
   --space-s: clamp(2.4rem, 1.147vw + 2.033rem, 3.6rem);
   --space-m: clamp(3.6rem, 0.86vw + 3.325rem, 4.5rem);
   --space-l: clamp(4.5rem, 0.86vw + 4.225rem, 5.4rem);
@@ -62,26 +62,16 @@ h2 {
 /* Classes */
 
 .section {
-  max-height: 99vh;
-  max-width: 99vw;
+  min-height: 80svh;
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: auto auto;
+  place-items: center;
   padding: var(--space-xs);
 }
 
-@media screen and (width <= 550px) {
-  .section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
 
 .container {
 display: flex;
 flex-direction: column;
-height: fit-content;
 padding: var(--space-xs);
 width: clamp(275px, calc(17.1875rem + ((1vw - 3.2px) * 11.9503)), 400px);
 border: 2px solid black;
@@ -89,7 +79,6 @@ border-radius: 1.2rem;
 justify-content: center;
 background-color: hsl(0, 0%, 100%);
 box-shadow: .6rem .6rem 0px 0px black;
-grid-area: 1 / 2;
 }
 
 .card__image {
@@ -112,7 +101,7 @@ grid-area: 1 / 2;
 }
 
 .learning {
-  padding: calc(var(--space-xs)*.3) calc(var(--space-xs)*.5);
+  padding: calc(var(--space-xs)*.4) calc(var(--space-xs)*.2);
   border-radius: .3rem;
   background-color: var(--yellow);
   width: clamp(30%, 20%, 20%);
@@ -160,13 +149,12 @@ cursor: pointer;
 
 /* Attribution */
 .attribution {
-  grid-area: 2 / 2;
   font-size: var(--text-xs);
   text-align: center;
+  line-height: 1.5rem;
+  text-wrap: balance;
   padding: var(--space-xs);
 }
-
-
 
 .attribution a {
   color: hsl(228, 45%, 44%);
