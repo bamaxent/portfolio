@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution/Original Image for Challenge](./assets/images/desktop-design.jpg)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [View the complete build live here!](https://bamaxent.github.io/portfolio/blog-preview-card-main/)
 
 ## My process
 
@@ -72,8 +72,8 @@ Users should be able to:
 ## Author
 
 ### Websites 
-- [NI Web Dev](https://niwebdev.com)
-- [bamaxwell.com](https://bamaxwell.com)
+- <a href="https://niwebdev.com" target="_blank" rel="noopener noreferrer">NI Web Dev Website</a>
+- <a href="https://bamaxwell.com" target="_blank" rel="noopener noreferrer">BAMaxwell.com</a>
 
 ### Social
 - [GitHub](https://github.com/bamaxent/)
